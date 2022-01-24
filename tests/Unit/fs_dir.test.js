@@ -20,7 +20,7 @@ describe('File System Testing 🧪', () => {
     })
 
     it("Should return directory name", () => {
-        expect(File_System.dir_name(File_System.path_resolve('./'))).toBe('JCore.FileSystem');
+        expect(File_System.dir_name(File_System.path_resolve('./'))).toBe('SniperCode.FileSystem');
         expect(File_System.dir_name(File_System.path_resolve('./src'))).toBe('src');
     })
 
@@ -49,7 +49,7 @@ describe('File System Testing 🧪', () => {
 
         it("Should return object of dir items in defined depth recursively", () => {
             const scan_dir__recursively_depth = File_System.scan_dir_recursive_depth('./', 3);
-            expect(scan_dir__recursively_depth['JCore.FileSystem'].dir_name).toBe('JCore.FileSystem');
+            expect(scan_dir__recursively_depth['SniperCode.FileSystem'].dir_name).toBe('SniperCode.FileSystem');
             expect(scan_dir__recursively_depth.file.includes(".gitignore")).toBe(true);
         })
 
