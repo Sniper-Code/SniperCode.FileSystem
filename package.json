@@ -1,0 +1,34 @@
+{
+  "name": "snipercode.filesystem",
+  "version": "1.0.0",
+  "description": "File handling and minor os level operations.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sniper-Code/SniperCode.FileSystem.git"
+  },
+  "keywords": [
+    "Sniper-Code.FileSystem",
+    "Sniper-Code",
+    "SniperCode",
+    "FileSystem"
+  ],
+  "author": "Dibesh Raj Subedi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sniper-Code/SniperCode.FileSystem/issues"
+  },
+  "homepage": "https://github.com/Sniper-Code/SniperCode.FileSystem#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.8",
+    "babel-jest": "^27.4.6",
+    "jest": "^27.4.7",
+    "jest-cli": "^27.4.7",
+    "regenerator-runtime": "^0.13.9"
+  }
+}
