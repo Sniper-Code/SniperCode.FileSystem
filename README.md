@@ -4,6 +4,7 @@
 ![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/Sniper-Code/SniperCode.FileSystem)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Sniper-Code/SniperCode.FileSystem)
 ![GitHub](https://img.shields.io/github/license/Sniper-Code/SniperCode.FileSystem)![GitHub top language](https://img.shields.io/github/languages/top/Sniper-Code/SniperCode.FileSystem)
+![npm](https://img.shields.io/npm/v/snipercode.filesystem)
 
 ## **Table of Contents**
 
@@ -13,7 +14,6 @@
   - [**Installation**](#installation)
   - [**Uninstall**](#uninstall)
   - [**Exposed API**](#exposed-api)
-    - [**Network**](#network)
     - [**File**](#file)
   - [**Release**](#release)
 
@@ -36,21 +36,6 @@ To uninstall SniperCode.FileSystem, run `npm uninstall snipercode.filesystem`.
 ## **Exposed API**
 
 All the exposed API is documented below.
-
-### **Network**
-
-This API is used to access the list of network. Example:
-
-```Node.js
-const {Network} = require('SniperCode.FileSystem');
-const network = new Network();
-console.log(network.network);
-/*
-* Prints the list of network in following format.
-* [ '{Device_Name}':'{IP_Address}' ]
-*/
-
-```
 
 ### **File**
 

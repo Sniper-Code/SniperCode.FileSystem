@@ -1,6 +1,6 @@
 {
   "name": "snipercode.filesystem",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "File handling and minor os level operations.",
   "main": "index.js",
   "scripts": {
