@@ -19,7 +19,7 @@
 
 ## **Introduction**
 
-SniperCode.FileSystem is a file system library for JavaScript providing a simple and easy to use file system API based on [Node.js](https://nodejs.org/en/). It is designed to be used in a Node.js environment and a core part of the JCore Framework.
+SniperCode.FileSystem is a file system library for JavaScript providing a simple and easy to use file system API based on [Node.js](https://nodejs.org/en/). It is designed to be used in a Node.js environment and a core part for file handling.
 
 ## **Installation**
 
